@@ -90,7 +90,7 @@ check-app-is-running(){
   local port=$3
 
   podname=$($KUBECTL get pod -n "${namespace}" -l "${label}" -o name)
-  attempt 60 5 "$KUBECTL -n ${namespace} exec ${podname} --  curl -sLI localhost:${port}"
+  attempt 180 5 "$KUBECTL -n ${namespace} exec ${podname} --  curl -sLI localhost:${port}"
 }
 
 attempt() {

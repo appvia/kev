@@ -54,6 +54,7 @@ workflows:
   main:
     jobs:
       - build
+      - e2e
 
   nightly:
     triggers:
