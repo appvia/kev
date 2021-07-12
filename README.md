@@ -4,7 +4,7 @@
 
 ![Stability:Beta](https://img.shields.io/badge/stability-beta-orange)
 ![CircleCI](https://img.shields.io/circleci/build/github/appvia/kev/master)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/release/appvia/kev)
+[![GitHub tag (latest SemVer)](https://img.shields.io/github/v/release/appvia/kev)](https://github.com/appvia/kev/releases/tag/v0.2.0)
 ![License: Apache-2.0](https://img.shields.io/github/license/appvia/kev)
 
 
